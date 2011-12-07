@@ -40,6 +40,7 @@ class Neatline_IndexController extends Omeka_Controller_Action
 
         $this->_neatlinesTable = $this->getTable('NeatlineExhibit');
         $this->_mapsTable = $this->getTable('NeatlineMapsMap');
+        $this->_timelinesTable = $this->getTable('NeatlineTimeTimelines');
 
     }
 
